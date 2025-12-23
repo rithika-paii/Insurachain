@@ -1,0 +1,34 @@
+Blockchain-
+to start server Npm run devStart
+to start client npm start
+
+
+architecture - 
+react communicating to node
+node to mongo
+node to blockchain
+node to ipfs, node to blockchain to ipfs
+
+hopsital prescription upload frontend
+patient should be able to view his past medical records
+status - claim approve, claim rejected, claim processing
+
+1) either make a claim page, with a dropdown of prescritions against which he can press claim
+or
+make a table with each patient having a table of prescriptions and against each prescriptions a button is specifed to issue
+claim, in this way the history and claim goes hand in hand in one page,.
+
+
+
+
+
+2) sign in procedure
+
+a) connect wallet to website
+b) get message to sign from server - when you press sign in, a temporary token is
+generated
+c) user signs the message and sends signature to server - using that temporary
+token, the signature(hex-aplhanumeric) is made. 
+d) server verifies the signature and returns the access token
+
+integration
